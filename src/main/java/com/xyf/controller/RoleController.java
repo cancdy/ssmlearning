@@ -19,6 +19,7 @@ public class RoleController {
         ModelAndView modelAndView=new ModelAndView();
         List<Role> roleList=roleService.list();
         modelAndView.addObject("roleList",roleList);
+
         return modelAndView;
 
     }
