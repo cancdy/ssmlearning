@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="ssmLearing">
+    <output-path>$PROJECT_DIR$/out/artifacts/ssmLearing</output-path>
+    <root id="root">
+      <element id="archive" name="ssmLearing.jar">
+        <element id="module-output" name="ssmLearing" />
+      </element>
+    </root>
+  </artifact>
+</component>

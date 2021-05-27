@@ -28,7 +28,7 @@
 <!--    配置控制器需要的配置文件位置-->
     <init-param>
       <param-name>contextConfigLocation</param-name>
-      <param-value>classpath:spring-mvc.xml</param-value>
+      <param-value>classpath:applicationContext.xml</param-value>
     </init-param>
 <!--    配置服务启动的时候就启动-->
     <load-on-startup>2</load-on-startup>
