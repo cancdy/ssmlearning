@@ -8,7 +8,7 @@ import java.sql.Statement;
 
     public class Jdbctest {
 
-
+            public static final String author="xyf";
 
             public static final String DBDRIVER = "com.mysql.jdbc.Driver";
             public static final String DBURL = "jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai";
@@ -18,6 +18,8 @@ import java.sql.Statement;
             public static void main(String[] args) {
 
                 Connection conn = null;
+
+
                 Statement stmt = null;
                 try {
                     Class.forName(DBDRIVER);
