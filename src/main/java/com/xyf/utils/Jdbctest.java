@@ -10,7 +10,7 @@ import java.sql.Statement;
 
 
 
-            public static final String DBDRIVER = "org.gjt.mm.mysql.Driver";
+            public static final String DBDRIVER = "com.mysql.jdbc.Driver";
             public static final String DBURL = "jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai";
             public static final String DBUSER = "root";
             public static final String DBPASS = "123456";
